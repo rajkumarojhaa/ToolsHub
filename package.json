@@ -6,9 +6,23 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aceternity-ui": "^0.2.2",
+    "autoprefixer": "^10.4.20",
+    "browser-image-compression": "^2.0.2",
+    "classnames": "^2.5.1",
+    "color": "^4.2.3",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^11.3.31",
+    "lib-utils-ts": "^0.0.0-test",
+    "postcss": "^8.4.44",
+    "qrcode.react": "^4.0.1",
     "react": "^18.3.1",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.6"
   }
 }

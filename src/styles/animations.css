@@ -1,0 +1,67 @@
+/* src/styles/animations.css */
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+  
+  .animate-gradient {
+    animation: fadeInOut 1.5s ease-in-out infinite;
+  }
+  
+  .text-gradient-1 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-2 {
+    background: linear-gradient(to right, #43e97b, #38f9d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-3 {
+    background: linear-gradient(to right, #ff6bcb, #f8e71c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-4 {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .gradient-logo {
+    background: linear-gradient(270deg, #ff8a00, #e52e71, #9b23ea, #4a00e0);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 8s ease infinite;
+    line-height: 1.8; /* Adjust line height */
+    padding: 6px 0;   /* Add padding to give more space around the logo */
+  }
+  
+  
