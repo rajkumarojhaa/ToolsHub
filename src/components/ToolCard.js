@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ToolCard = ({ title, tools }) => {
   return (
-    <div className="p-4 mx-16 bg-black/30 dark:bg-black/40 backdrop-blur-lg rounded-lg shadow-lg border border-white/10 dark:border-gray-700/10">
+    <div className="p-4 mx-5 bg-black/30 dark:bg-black/40 backdrop-blur-lg rounded-lg shadow-lg border border-white/10 dark:border-gray-700/10">
       <h2 className="text-2xl font-semibold mb-6 text-center text-white dark:text-gray-200">
         {title}
       </h2>
