@@ -16,7 +16,7 @@ const App = () => {
       <Router>
         <div className="min-h-screen bg-gradient-to-r from-gray-900 via-purple-900 to-black text-white">
           <Navbar />
-          <div className="p-4">
+          <div className="pt-24">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/image-converter" element={<ImageConverter />} />
