@@ -44,7 +44,7 @@ const PasswordGenerator = () => {
   };
 
   return (
-    <div className="p-8 flex flex-col items-center min-h-screen bg-transparent">
+    <div className="p-8 flex flex-col items-center  bg-transparent">
       <h1 className="text-4xl font-bold mb-2">Generate a Password</h1>
       <p className="text-lg mb-6">Generate a random password with different options.</p>
 
