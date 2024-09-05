@@ -14,7 +14,7 @@ const Home = () => {
       <p className="text-center mx-auto mt-3 text-lg text-slate-400">
       Here is a collection of online free tools I have frequently used.
     </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-6">
+      <div className="grid grid-cols-1 sm:gap-8 gap-5 w-screen">
         <ToolCard 
           title="Converter" 
           tools={[
