@@ -4,3 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* index.css */
+body {
+    /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Webkit browsers */
+  }
+  
+  html {
+    overflow: auto; /* Enable scrolling */
+  }
+  
+  body {
+    overflow: auto; /* Enable scrolling */
+  }
+  
