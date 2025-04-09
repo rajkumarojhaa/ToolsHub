@@ -64,4 +64,16 @@
     padding: 6px 0;   /* Add padding to give more space around the logo */
   }
   
+  /* Hide scrollbar but keep scrolling */
+.hide-scrollbar {
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+
   

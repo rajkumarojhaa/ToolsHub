@@ -16,6 +16,7 @@
     "lib-utils-ts": "^0.0.0-test",
     "postcss": "^8.4.44",
     "qrcode.react": "^4.0.1",
+    "qs": "^6.14.0",
     "react": "^18.3.1",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.3.1",

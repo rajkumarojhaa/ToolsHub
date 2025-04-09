@@ -8,15 +8,17 @@ import ColorConverter from './components/ColorConverter';
 import WordCounter from './components/WordCounter';
 import TextFormatter from './components/TextFormatter';
 import Navbar from './components/Navbar';
-// import { ThemeProvider } from './context/ThemeContext';
+import BgRemover from './components/BgRemover';
+import TextToImageGenerator from './components/TextToImageGenerator';
+import TempMail from './components/TempMail';
 
 const App = () => {
   return (
     
       <Router>
-        <div className="min-h-screen bg-gradient-to-r from-gray-900 via-purple-900 to-black text-white">
+        <div className="min-h-screen bg-gradient-to-r from-gray-900 via-purple-900 to-black text-white ">
           <Navbar />
-          <div className="p-4">
+          <div className="pt-24">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/image-converter" element={<ImageConverter />} />
@@ -25,6 +27,9 @@ const App = () => {
               <Route path="/password-generator" element={<PasswordGenerator />} />
               <Route path="/qrcode-generator" element={<QrcodeGenerator />} />
               <Route path="/color-converter" element={<ColorConverter />} />
+              <Route path="/background-remover" element={<BgRemover />} />
+              <Route path="/texttoimage-generator" element={<TextToImageGenerator />} />
+              <Route path="/tempmail-generator" element={<TempMail />} />
             </Routes>
           </div>
         </div>
